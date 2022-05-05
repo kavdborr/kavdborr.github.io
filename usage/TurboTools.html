@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TurboTools &mdash; TurboTools 0.post7+g550da51 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/plot_directive.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Release History" href="../release-history.html" />
+    <link rel="prev" title="Main" href="main.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> TurboTools
+          </a>
+              <div class="version">
+                0.post7+g550da51
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../usage.html">Usage</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">TurboTools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../release-history.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../min_versions.html">Minimum Version of Python and NumPy</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TurboTools</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../usage.html">Usage</a> &raquo;</li>
+      <li>TurboTools</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/usage/TurboTools.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="turbotools">
+<h1>TurboTools<a class="headerlink" href="#turbotools" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">TurboTools.TurboMap.</span></span><span class="sig-name descname"><span class="pre">TurboMap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fileLoc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isCompressor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'default'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class contains tools to load, convert and display compressor maps.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>fileLoc:str</strong></dt><dd><p>Location of teh map that needs to be read</p>
+</dd>
+<dt><strong>width:int</strong></dt><dd><p>width of the map</p>
+</dd>
+<dt><strong>height:int</strong></dt><dd><p>height of the map</p>
+</dd>
+<dt><strong>isCompressor:Bool</strong></dt><dd><p>is the map a compressor?</p>
+</dd>
+<dt><strong>name:string</strong></dt><dd><p>opt: provides a custom name for the map. Otherwise the filename is used.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap.plotDesingPoint">
+<span class="sig-name descname"><span class="pre">plotDesingPoint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">beta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">N</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap.plotDesingPoint"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap.plotDesingPoint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots the design point (in terms of N and beta) on the map.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>beta:float</strong></dt><dd><p>Design beta value of the machine.</p>
+</dd>
+<dt><strong>N:float</strong></dt><dd><p>Design corrected rotaional speed of the machine.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap.plotExperiment">
+<span class="sig-name descname"><span class="pre">plotExperiment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">test</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">machine</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Color</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'rainbow'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">res</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">50</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap.plotExperiment"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap.plotExperiment" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function plots the movement of the operating point on the map.
+The color of the line can vary with time if specified color is rainbow.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>test:DataFrame</strong></dt><dd><p>Pandas dataframe containing the results of a simulation performed in EcosimPro.</p>
+</dd>
+<dt><strong>machine:str</strong></dt><dd><p>name of the machine, as reported in the EcosimPro report file.</p>
+</dd>
+<dt><strong>Color:str</strong></dt><dd><p>Color of the operating point locus. 
+If not specified, use rainbow, where the line varies 
+from red ot green in finction of time.</p>
+</dd>
+<dt><strong>res:int</strong></dt><dd><p>Color resolution of the line in rainbow mode. Default is 50. 
+Choosing unreasonably large values might resutl in slow plotting</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap.printMap">
+<span class="sig-name descname"><span class="pre">printMap</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap.printMap"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap.printMap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Display the scaled map. formatting is autamically performed.
+After calling this function more plotting actions can be performed on the same figure.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>None</strong></dt><dd></dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>figure object</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap.readMapGT">
+<span class="sig-name descname"><span class="pre">readMapGT</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fileLoc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap.readMapGT"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap.readMapGT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads the map in the Gasturb format. The Gasturb format can vary slighlty in setup, therefore it is easier to make the user specify the size of the map.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>fileLoc:str</strong></dt><dd><p>Location of teh map that needs to be read</p>
+</dd>
+<dt><strong>width:int</strong></dt><dd><p>width of the map</p>
+</dd>
+<dt><strong>height:int</strong></dt><dd><p>height of the map</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap.scaleMap">
+<span class="sig-name descname"><span class="pre">scaleMap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Kp</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Km</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Keta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap.scaleMap"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap.scaleMap" title="Permalink to this definition">¶</a></dt>
+<dd><p>function to easily scale the whole map in one line</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>Kp:float</strong></dt><dd><p>scaling factor for the pressure ratio</p>
+</dd>
+<dt><strong>Km:float</strong></dt><dd><p>scaling factor for the massflowrate</p>
+</dd>
+<dt><strong>Keta:float</strong></dt><dd><p>scaling factor for the adiabatic efficiency</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="TurboTools.TurboMap.TurboMap.writeMap">
+<span class="sig-name descname"><span class="pre">writeMap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fileLoc</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/TurboTools/TurboMap.html#TurboMap.writeMap"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#TurboTools.TurboMap.TurboMap.writeMap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write the map in the TURBO format, using the xml format.
+For the goal of the current project only gasturb to TURBO conversion is needed.
+In future versions support for the inverse may also become available.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>fileLoc:str</strong></dt><dd><p>fileName for the map, which is saved in convertedMaps.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="main.html" class="btn btn-neutral float-left" title="Main" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../release-history.html" class="btn btn-neutral float-right" title="Release History" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Karel Van den Borre.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
